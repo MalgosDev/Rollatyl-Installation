@@ -53,7 +53,7 @@ quit;
 `systemctl start nginx`<br>
 `certbot certonly --nginx -d your.domain`<br>
 `sudo nano /etc/nginx/sites-enabled/rollactyl.conf`<br>
-`# In reliactyl, paste this config and change the varible `
+`# In rollactyl, paste this config and change the varible `
 
 ```Nginx
 server {
@@ -99,7 +99,7 @@ server {
    `node index.js`<br>
 
 2. Production<br>
-   `cd path/to/the/reliactyl`<br>
+   `cd path/to/the/rollactyl`<br>
    `npm install pm2 -g`<br>
    `pm2 start index.js`<br>
    `pm2 save`
